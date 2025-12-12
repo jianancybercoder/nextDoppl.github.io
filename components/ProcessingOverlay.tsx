@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { AppStatus, GENERATION_PHASES } from '../types';
+import { AppStatus, GENERATION_PHASES } from '../types.ts';
 import { CheckCircle2, Loader2, Cpu } from 'lucide-react';
 
 interface ProcessingOverlayProps {

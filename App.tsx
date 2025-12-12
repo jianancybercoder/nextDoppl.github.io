@@ -1,10 +1,10 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Sparkles, Shirt, User, AlertTriangle, MessageSquare, Key, Eye, EyeOff, ExternalLink, RefreshCw, Trash2, Settings2, Sun, Moon } from 'lucide-react';
-import ImageUploadCard from './components/ImageUploadCard';
-import ProcessingOverlay from './components/ProcessingOverlay';
-import ResultView from './components/ResultView';
-import { ImageFile, AppStatus, VTONResult } from './types';
-import { generateVTON, fileToBase64 } from './services/geminiService';
+import ImageUploadCard from './components/ImageUploadCard.tsx';
+import ProcessingOverlay from './components/ProcessingOverlay.tsx';
+import ResultView from './components/ResultView.tsx';
+import { ImageFile, AppStatus, VTONResult } from './types.ts';
+import { generateVTON, fileToBase64 } from './services/geminiService.ts';
 
 const App: React.FC = () => {
   // Theme State - Default to Dark Mode

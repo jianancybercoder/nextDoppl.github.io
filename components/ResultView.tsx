@@ -1,6 +1,6 @@
 import React from 'react';
 import { Download, Maximize2, X, ChevronDown, Activity, Wind, Scale, HandMetal, Sparkles, Zap } from 'lucide-react';
-import { VTONResult } from '../types';
+import { VTONResult } from '../types.ts';
 
 interface ResultViewProps {
   result: VTONResult;

@@ -1,5 +1,5 @@
 import { GoogleGenAI } from "@google/genai";
-import { VTONResult } from "../types";
+import { VTONResult } from "../types.ts";
 
 const SYSTEM_PROMPT = `
 你是由 Google Gemini 模型驅動的頂尖 "Doppl-Next VTON Engine" (高保真虛擬試穿引擎)。

@@ -1,5 +1,5 @@
 import React, { useRef } from 'react';
-import { ImageFile } from '../types';
+import { ImageFile } from '../types.ts';
 import { Upload, X } from 'lucide-react';
 
 interface ImageUploadCardProps {
