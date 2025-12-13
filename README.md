@@ -1,7 +1,7 @@
 
 # ✨ Doppl-Next VTON Engine
 
-> **次世代 AI 虛擬試穿引擎 (Next-Gen Virtual Try-On Engine)**  
+> **AI 驅動的賽博穿衣 (AI-Driven Cyber Dress)**  
 > Powered by Google Gemini 3 Pro & Phantom Haptics Technology
 
 ![Status](https://img.shields.io/badge/Status-Online-green)
@@ -19,7 +19,7 @@
 
 ## 📖 專案簡介 (Introduction)
 
-**Doppl-Next** 是一款利用最先進生成式 AI 技術打造的虛擬試穿 (VTON) 應用程式。不同於傳統的 2D 圖像疊加技術，Doppl-Next 利用 **Google Gemini 3** 的多模態能力（或支援 Vision 的 OpenAI 相容模型），深入理解布料物理特性、光影環境與人體姿態，合成出具備 **8K 級攝影真實感** 的試穿效果。
+**Doppl-Next** 是一款利用最先進生成式 AI 技術打造的 **AI 驅動賽博穿衣 (Cyber Dress)** 應用程式。不同於傳統的 2D 圖像疊加技術，Doppl-Next 利用 **Google Gemini 3** 的多模態能力（或支援 Vision 的 OpenAI 相容模型），深入理解布料物理特性、光影環境與人體姿態，合成出具備 **8K 級攝影真實感** 的試穿效果。
 
 此外，本專案首創 **「幻影觸感 (Phantom Haptics)」** 技術，不僅生成視覺圖像，還能透過 AI 推論布料的觸覺數據（如透氣度、重量感、彈性），並以動態圖表可視化呈現。
 
@@ -80,7 +80,7 @@ Doppl-Next 不僅讓你看見，還讓你「感覺」到衣服：
 ### 3. 開始試穿
 1.  **上傳照片**：左側上傳使用者，右側上傳服裝。
 2.  **輸入指令** (選填)：如「請將上衣紮進褲子裡」。
-3.  **啟動引擎**：點擊生成按鈕，約 10-20 秒後即可查看結果與觸感分析。
+3.  **啟動 Cyberdress**：點擊 **CYBERDRESS ON** 按鈕，約 10-20 秒後即可查看結果與觸感分析。
 
 ---
 

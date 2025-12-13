@@ -82,8 +82,8 @@ export interface UniversalApiResponse {
 export const translations = {
   'zh-TW': {
     appTitle: 'Doppl-Next',
-    heroTitle: '真實物理 VTON 引擎',
-    heroSubtitle: '上傳照片與服裝。利用高階物理模擬與 Phantom Haptics 觸感分析技術，合成 8K 級的攝影擬真試穿效果。',
+    heroTitle: 'AI 驅動的賽博穿衣',
+    heroSubtitle: '上傳照片與服裝。利用高階物理模擬與 Phantom Haptics 觸感分析技術，體驗 Cyberdress On 的擬真試穿效果。',
     settings: {
       title: '引擎設定',
       provider: 'AI 模型供應商',
@@ -118,8 +118,8 @@ export const translations = {
     },
     actions: {
       reset: '重來',
-      generate: '啟動 VTON 引擎',
-      regenerate: '依據新設定重新生成',
+      generate: 'CYBERDRESS ON',
+      regenerate: '重新 Cyberdress',
       processing: 'PROCESSING...',
       setupKey: '設定 Key 並啟動'
     },
@@ -152,8 +152,8 @@ export const translations = {
   },
   'en': {
     appTitle: 'Doppl-Next',
-    heroTitle: 'Hyper-Realistic VTON Engine',
-    heroSubtitle: 'Upload photos and garments. Synthesize 8K photorealistic virtual try-on results using advanced physics simulation and Phantom Haptics analysis.',
+    heroTitle: 'AI-Driven Cyber Dress',
+    heroSubtitle: 'Upload photos and garments. Experience the Cyberdress On effect with advanced physics simulation and Phantom Haptics analysis.',
     settings: {
       title: 'Engine Settings',
       provider: 'AI Provider',
@@ -188,8 +188,8 @@ export const translations = {
     },
     actions: {
       reset: 'Reset',
-      generate: 'Ignite Engine',
-      regenerate: 'Regenerate',
+      generate: 'CYBERDRESS ON',
+      regenerate: 'Re-Cyberdress',
       processing: 'PROCESSING...',
       setupKey: 'Set Key & Start'
     },
@@ -1204,7 +1204,7 @@ const App: React.FC = () => {
           {!resultData && (
             <div className="text-center space-y-4 max-w-2xl mb-10 animate-in fade-in slide-in-from-bottom-4 duration-700">
               <h1 className="text-3xl md:text-5xl font-display font-bold text-coffee dark:text-white tracking-tight leading-tight">
-                Gemini 3 Pro <br/> <span className="text-transparent bg-clip-text bg-gradient-to-r from-accent to-purple-400">{t.heroTitle}</span>
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-accent to-purple-400">{t.heroTitle}</span>
               </h1>
               <p className="text-coffee/70 dark:text-warm-text/70 text-base md:text-lg leading-relaxed px-4">{t.heroSubtitle}</p>
             </div>
